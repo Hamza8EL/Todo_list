@@ -1,0 +1,135 @@
+
+
+
+*{
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body{
+	
+	background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.04),rgba(0,0,0,0.08),rgba(0,0,0,0.05),rgba(0,0,0,0.04),rgba(0,0,0,0.01),rgba(0,0,0,0.1),rgba(0,0,0,0.09),rgba(0,0,0,0.1),rgba(0,0,0,0.03),transparent,rgba(0,0,0,0.07),rgba(0,0,0,0.03),rgba(0,0,0,0.06) 4px),linear-gradient(90deg, rgb(193, 255, 253),rgb(59, 104, 247));		color: #fff;
+	/* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='60' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M15 0l-3.75 3.75v7.5h-7.5L0 15l3.75 3.75h7.5v7.5L15 30l3.75-3.75v-7.5h7.5L30 15l-3.75-3.75h-7.5v-7.5zm3.75 3.75l7.5 7.5v-7.5zm7.5 15l-7.5 7.5h7.5zm-15 7.5l-7.5-7.5v7.5zm-7.5-15l7.5-7.5h-7.5zM45 30l-3.75 3.75v7.5h-7.5L30 45l3.75 3.75h7.5v7.5L45 60l3.75-3.75v-7.5h7.5L60 45l-3.75-3.75h-7.5v-7.5zm3.75 3.75l7.5 7.5v-7.5zm7.5 15l-7.5 7.5h7.5zm-15 7.5l-7.5-7.5v7.5zm-7.5-15l7.5-7.5h-7.5z'  stroke-width='1' stroke='none' fill='hsla(196, 95%, 48%, 1)'/><path d='M30 0v15l3.75-3.75v-7.5h7.5L45 0zm15 0l3.75 3.75h7.5v7.5L60 15V0zm15 15l-3.75 3.75v7.5h-7.5L45 30h15zM45 30l-3.75-3.75h-7.5v-7.5L30 15v15zm-15 0H15l3.75 3.75h7.5v7.5L30 45zm0 15l-3.75 3.75v7.5h-7.5L15 60h15zM15 60l-3.75-3.75h-7.5v-7.5L0 45v15zM0 45l3.75-3.75v-7.5h7.5L15 30H0zm11.25-11.25l-7.5 7.5h7.5zm-7.5 15l7.5 7.5v-7.5zm15 7.5l7.5-7.5h-7.5zm7.5-15l-7.5-7.5v7.5zm7.5-22.5l7.5 7.5v-7.5zm15 7.5l7.5-7.5h-7.5zm7.5-15l-7.5-7.5v7.5zm-15-7.5l-7.5 7.5h7.5z'  stroke-width='1' stroke='none' fill='hsla(340, 22%, 93%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>") */
+}
+
+h1{
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 30px;
+
+}
+
+.task{
+margin-top: 30px;
+margin-bottom: 30px;
+width: 40vw;
+margin-left: auto;
+margin-right: auto;	
+padding:  15px;
+display: flex;
+justify-content: space-between;
+
+border-bottom: 3px solid white;
+background: rgba(227, 232, 232, 0.25);
+box-shadow: 0 8px 32px 0 rgba(14, 14, 15, 0.37) ;
+backdrop-filter: blur(4px);
+border-radius: 10px;
+border: 1px solid ;
+border-bottom: 3px solid white;
+
+}
+
+.icon:hover{
+	font-size: 22px;
+	transition: 0.2s;
+}
+.icon-thumb-tack:hover{
+color: orange;
+opacity: 1;
+}
+
+.icon-trash-o:hover{
+	color: rgb(246, 135, 32);
+	opacity: 1;
+	}
+
+	.icon-frustrated2:hover{
+		color: rgb(246, 135, 32);
+		opacity: 1;
+		}
+	h2{
+		font-size: 20px;
+		text-align: center;
+		margin-top: 80px;
+		margin-bottom: 40px;
+	}
+
+	form{
+		text-align: center;
+		
+		
+
+	}
+	input{
+		padding: 10px 20px;
+		border-radius: 6px;
+		width: 35vw;
+		font-size: 18px;
+	}
+
+	button{all:unset;}
+	.icon-checkbox-checked
+	{
+		font-size: 25px;
+		margin-left: 10px ;
+		position: relative;
+		top : 4px;
+		
+	}
+
+	.icon-checkbox-checked:hover{
+		background-color: green;
+		
+	}
+	.divp{
+text-align: center;
+		width: 70%;
+		height: auto;
+border-left: 2px solid #fff;
+border-right: 2px solid #fff;
+
+	}
+
+	/* pour le code js */
+
+	.dn{
+		display: none;
+	}
+
+	.icon-heart{
+		color: rgb(248, 117, 117);
+		
+	}
+
+	.icon-heart:hover{
+		
+		transition: 0.2s;
+	}
+
+	.finish{
+		text-decoration-line: line-through;
+		text-decoration-style: wavy;
+	}
+
+	.jaune{
+		color: rgb(238, 217, 84);
+		opacity: 10;
+	}
+
+	.inp1{
+		margin-left: 35px;
+	}
+
